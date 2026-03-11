@@ -1,0 +1,26 @@
+opencollection: 1.0.0
+
+info:
+  name: rubb
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ""
+      port: ""
+      auth:
+        username: ""
+        password: ""
+      bypassProxy: ""
+
+request:
+  headers:
+    - name: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3NzMyMDY3MDc4MzAsInVzZXJuYW1lIjoidGVzIiwiaWF0IjoxNzczMjA2ODQ4LCJleHAiOjE3NzMyOTMyNDh9.Wu-oJjOaUtYoxdeJKyMRYtEuTOsLh7AyJ3Mt7jmOu8g
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git
